@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GiphComponent } from './giph/giph.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GiphComponent
   ],
   imports: [
     BrowserModule,
